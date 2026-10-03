@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/industry-e6011685-4536-4e72-b554-e36e94cbef4e/styles.css">
+<script src="_ds/industry-e6011685-4536-4e72-b554-e36e94cbef4e/_ds_bundle.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500&display=swap" rel="stylesheet">
+<style>@keyframes b1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(18vw,12vh) scale(1.25)}}@keyframes b2{0%,100%{transform:translate(0,0) scale(1.1)}50%{transform:translate(-20vw,-8vh) scale(.85)}}@keyframes b3{0%,100%{transform:translate(0,0)}50%{transform:translate(-10vw,18vh) scale(1.3)}}@keyframes shimmer{0%{background-position:0% 50%}100%{background-position:200% 50%}}@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}html{scroll-behavior:smooth}body{margin:0;background:#2b0b15}a{color:#FFF8B7}a:hover{color:#fff}</style>
+</helmet>
+<div style="background:#2b0b15;color:#FFF8B7;font-family:var(--font-body),'Barlow',sans-serif;min-height:100vh;position:relative;overflow:hidden;">
+{{ bg }}
+<div style="max-width:1120px;margin:0 auto;padding:0 clamp(16px,4vw,40px);position:relative;z-index:1;">
+
+<nav style="display:flex;justify-content:space-between;align-items:center;padding:24px 0;border-bottom:1px solid rgba(255,248,183,.2);">
+<a href="#about" style="width:44px;height:44px;border:1px solid #C8154C;display:flex;align-items:center;justify-content:center;"><img src="https://api.iconify.design/lucide/cat.svg?color=%23FFF8B7" alt="Логотип" style="width:28px;height:28px;display:block;"></a>
+<div style="display:flex;gap:clamp(14px,3vw,32px);font-size:15px;">
+<a href="#about" style="text-decoration:none;color:#FFF8B7;">Обо мне</a>
+<a href="#skills" style="text-decoration:none;color:#FFF8B7;">Навыки</a>
+<a href="#tools" style="text-decoration:none;color:#FFF8B7;">Инструменты</a>
+<a href="#edu" style="text-decoration:none;color:#FFF8B7;">Образование</a>
+</div>
+</nav>
+
+<header id="about" style="padding:clamp(56px,10vw,120px) 0 clamp(48px,8vw,96px);display:flex;flex-direction:column;gap:40px;">
+<div style="min-width:0;">
+<div style="font-size:14px;letter-spacing:.2em;text-transform:uppercase;color:#e58aa6;margin-bottom:20px;">Портфолио · Софья</div>
+<h1 style="font-family:var(--font-heading),'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;font-size:clamp(40px,7vw,96px);line-height:.92;overflow-wrap:anywhere;max-width:900px;margin:0;text-transform:uppercase;text-wrap:balance;background:linear-gradient(90deg,#FFF8B7 0%,#FFF8B7 35%,#f3a3bb 50%,#FFF8B7 65%,#FFF8B7 100%);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shimmer 6s linear infinite;">SMM, исследования и&nbsp;дизайн</h1>
+</div>
+<div style="display:flex;flex-direction:column;gap:24px;min-width:0;max-width:560px;">
+<div style="display:flex;gap:8px;flex-wrap:wrap;">
+<span style="border:1px solid #FFF8B7;padding:6px 14px;font-size:15px;white-space:nowrap;">19 лет</span>
+<span style="border:1px solid #FFF8B7;padding:6px 14px;font-size:15px;white-space:nowrap;">СПбГУ, факультет социологии</span>
+</div>
+<p style="font-size:20px;line-height:1.5;margin:0;max-width:460px;">Учусь в СПбГУ на социологическом факультете. Веду социальные сети, настраиваю таргет, делаю исследования, инфографику и лендинги.</p>
+<a href="https://t.me/slavr19" style="align-self:flex-start;background:#C8154C;color:#FFF8B7;text-decoration:none;padding:14px 28px;font-weight:500;font-size:17px;position:relative;transition:transform .25s,background .25s;" style-hover="background:#a8103f;transform:translateY(-2px);">Написать в Telegram →</a>
+</div>
+</header>
+
+<section id="skills" style="padding:56px 0;border-top:1px solid rgba(255,248,183,.2);">
+<div style="display:flex;gap:16px;align-items:baseline;margin-bottom:32px;"><span style="color:#e58aa6;font-size:15px;">01</span><h2 style="font-family:var(--font-heading),'Barlow Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:48px;margin:0;text-transform:uppercase;">Опыт и навыки</h2></div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:16px;">
+<sc-for list="{{ skills }}" as="s" hint-placeholder-count="3">
+<div data-reveal="1" style="padding:28px 24px;border:1px solid rgba(255,248,183,.35);display:flex;flex-direction:column;gap:24px;min-width:0;background:rgba(43,11,21,.35);backdrop-filter:blur(6px);transition:border-color .3s,transform .3s;" style-hover="border-color:#C8154C;transform:translateY(-4px);">
+<div style="display:flex;justify-content:space-between;align-items:flex-start;">
+<div style="width:56px;height:56px;border:1px solid #C8154C;display:flex;align-items:center;justify-content:center;">{{ s.icon }}</div>
+<span style="color:#e58aa6;font-size:14px;">{{ s.n }}</span>
+</div>
+<div style="font-family:var(--font-heading),'Barlow Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:32px;line-height:1;text-transform:uppercase;">{{ s.t }}</div>
+<div style="display:flex;flex-direction:column;border-top:1px solid rgba(255,248,183,.2);">
+<sc-for list="{{ s.items }}" as="it" hint-placeholder-count="2">
+<div style="display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid rgba(255,248,183,.2);font-size:17px;">{{ it.icon }}<span>{{ it.t }}</span></div>
+</sc-for>
+</div>
+</div>
+</sc-for>
+</div>
+</section>
+
+<section id="tools" style="padding:56px 0;border-top:1px solid rgba(255,248,183,.2);">
+<div style="display:flex;gap:16px;align-items:baseline;margin-bottom:32px;"><span style="color:#e58aa6;font-size:15px;">02</span><h2 style="font-family:var(--font-heading),'Barlow Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:48px;margin:0;text-transform:uppercase;">Инструменты</h2></div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px;">
+<sc-for list="{{ tools }}" as="t" hint-placeholder-count="0">
+<div data-reveal="1" style="border:1px solid rgba(255,248,183,.35);padding:28px 16px;display:flex;flex-direction:column;align-items:center;gap:16px;background:rgba(43,11,21,.35);backdrop-filter:blur(6px);transition:border-color .3s,transform .3s;" style-hover="border-color:#C8154C;transform:translateY(-4px);">
+<div style="width:72px;height:72px;background:#C8154C;display:flex;align-items:center;justify-content:center;animation:floaty 4s ease-in-out infinite;">{{ t.logo }}</div>
+<div style="font-size:17px;">{{ t.name }}</div>
+</div>
+</sc-for>
+</div>
+</section>
+
+<section id="edu" style="padding:56px 0 72px;border-top:1px solid rgba(255,248,183,.2);">
+<div style="display:flex;gap:16px;align-items:baseline;margin-bottom:32px;"><span style="color:#e58aa6;font-size:15px;">03</span><h2 style="font-family:var(--font-heading),'Barlow Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:48px;margin:0;text-transform:uppercase;">Образование</h2></div>
+<div style="display:flex;flex-direction:column;border-left:1px solid #FFF8B7;margin-left:6px;">
+<sc-for list="{{ edu }}" as="e" hint-placeholder-count="2">
+<div data-reveal="1" style="position:relative;padding:0 0 36px 32px;">
+<span style="position:absolute;left:-6px;top:6px;width:11px;height:11px;background:{{ e.dot }};border:1px solid #FFF8B7;"></span>
+<div style="display:flex;gap:20px;align-items:center;flex-wrap:wrap;">
+<div style="width:72px;height:72px;background:#FFF8B7;display:flex;align-items:center;justify-content:center;flex-shrink:0;">{{ e.logo }}</div>
+<div>
+<div style="color:#e58aa6;font-size:15px;margin-bottom:6px;">{{ e.y }}</div>
+<div style="font-family:var(--font-heading),'Barlow Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:32px;text-transform:uppercase;">{{ e.t }}</div>
+<div style="font-size:17px;margin-top:4px;opacity:.9;">{{ e.d }}</div>
+</div>
+</div>
+</div>
+</sc-for>
+</div>
+</section>
+
+<footer style="border-top:1px solid rgba(255,248,183,.2);padding:32px 0 40px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;font-size:16px;">
+<span>Софья, 19 лет · Санкт-Петербург</span>
+<a href="https://t.me/slavr19">Telegram @slavr19</a>
+</footer>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  componentDidMount() {
+    const els=[...document.querySelectorAll('[data-reveal]')];
+    els.forEach((el,i)=>{el.style.opacity='0';el.style.translate='0 24px';el.style.transition+=(el.style.transition?',':'')+'opacity .7s ease '+(i%3)*0.12+'s, translate .7s ease '+(i%3)*0.12+'s';});
+    this.io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.style.opacity='1';e.target.style.translate='0 0';this.io.unobserve(e.target);}}),{threshold:.15});
+    els.forEach(el=>this.io.observe(el));
+  }
+  componentWillUnmount(){ this.io&&this.io.disconnect(); }
+  bgEl() {
+    if (this._bg) return this._bg;
+    const blob=(st)=>React.createElement('div',{style:{position:'absolute',borderRadius:'50%',filter:'blur(90px)',...st}});
+    this._bg=React.createElement('div',{style:{position:'fixed',inset:0,pointerEvents:'none',zIndex:0,overflow:'hidden'}},
+      blob({width:'55vw',height:'55vw',top:'-15vw',left:'-10vw',background:'#6e1530',opacity:.7,animation:'b1 22s ease-in-out infinite'}),
+      blob({width:'45vw',height:'45vw',top:'30vh',right:'-15vw',background:'#C8154C',opacity:.28,animation:'b2 26s ease-in-out infinite'}),
+      blob({width:'40vw',height:'40vw',bottom:'-15vw',left:'25vw',background:'#8a2a3f',opacity:.5,animation:'b3 30s ease-in-out infinite'}),
+      blob({width:'22vw',height:'22vw',top:'10vh',left:'55vw',background:'#FFF8B7',opacity:.06,animation:'b2 34s ease-in-out infinite'})
+    );
+    return this._bg;
+  }
+  renderVals() {
+    const tools = [
+        {src:'https://api.iconify.design/simple-icons/instagram.svg?color=%23FFF8B7',name:'Instagram'},{src:'https://api.iconify.design/simple-icons/claude.svg?color=%23FFF8B7',name:'Claude'},{src:'https://api.iconify.design/simple-icons/telegram.svg?color=%23FFF8B7',name:'Telegram'},
+        {src:'https://api.iconify.design/simple-icons/figma.svg?color=%23FFF8B7',name:'Figma'},{src:'https://api.iconify.design/mdi/microsoft-excel.svg?color=%23FFF8B7',name:'Excel'},{src:'https://api.iconify.design/simple-icons/github.svg?color=%23FFF8B7',name:'GitHub'}
+      ];
+    const ic=(n,s)=>React.createElement('img',{src:'https://api.iconify.design/lucide/'+n+'.svg?color=%23FFF8B7',alt:'',style:{width:s,height:s,display:'block',flexShrink:0}});
+    const g=(n,t,icon,items)=>({n,t,icon:ic(icon,28),items:items.map(([i,x])=>({t:x,icon:ic(i,18)}))});
+    const skills=[
+      g('01','SMM','megaphone',[['instagram','Ведение Instagram'],['messages-square','Социальные сети'],['target','Таргетированная реклама']]),
+      g('02','Аналитика','search',[['chart-no-axes-column','Анализ данных'],['clipboard-list','Исследования'],['users','Социология']]),
+      g('03','Дизайн','pen-tool',[['chart-pie','Инфографика'],['layout-template','Дизайн лендингов'],['figma','Figma']])
+    ];
+    return {
+      bg: this.bgEl(),
+      skills,
+      tools: tools.map(t=>({...t,logo:React.createElement('img',{src:t.src,alt:t.name,style:{width:40,height:40,display:'block'}})})),
+      edu: [
+        {y:'Сейчас',t:'СПбГУ',d:'Факультет социологии',dot:'#C8154C',logo:React.createElement('img',{src:'assets/spbu-logo.png',alt:'СПбГУ',style:{width:60,height:60,objectFit:'contain',display:'block',mixBlendMode:'multiply'}})}
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>
